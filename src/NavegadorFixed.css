@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans&display=swap');
+
+
+.contenedor-fixed{
+    height: 20vh;;
+    width: 100vw;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 100;
+    border: 2px solid #fafafa10;
+}
+.primer{
+    position: relative;
+    max-height: 20vh;
+}
+.tercero{
+    text-align: center;
+
+}
+.Logo{
+    position: absolute;
+    right: 80px;
+}
+
+.elemento{
+    color: goldenrod;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+
+}
+.elemento:hover{
+    color: aliceblue;
+}
+.glass-effect{
+    background-color: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem) ;
+}
+.tercero a button{
+    border-radius: 100px;
+    width: 279px;
+    height: 49px;
+    font-size: 13px;
+    border: 0px;
+    cursor: pointer;
+    margin: 52px;
+    background-color: #E1FFD8;
+}

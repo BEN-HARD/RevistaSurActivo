@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
+.container-footer{
+    height: 40vh;
+    width: 100vw;
+    background-color: #000,
+}
+.div-footer{
+    margin: 40px;
+    display: grid;
+    grid-auto-flow: column;
+
+}
+.divisor{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.imagen-footer{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 135px;
+}
+.slogan{
+    color: rgb(220, 197, 138);
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 10%;
+}
+#id-face{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+div h6{
+    font-size: 20px;
+    color: goldenrod;
+    font-family: 'Nunito', sans-serif;
+    padding: 30px 0 30px 0;
+}
+.p-servicios{
+    color: goldenrod;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 0 10px 0;
+
+}
